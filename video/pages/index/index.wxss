@@ -1,0 +1,37 @@
+.btn {
+  background-color: rgb(70, 128, 236);
+  color: #fff;
+  width: 80vw;
+  margin-top: 20px;
+}
+
+.preview,
+.view {
+  width: 90vw;
+  margin: 5vw auto;
+}
+
+.ad {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask {
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.window {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
